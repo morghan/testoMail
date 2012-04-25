@@ -1,0 +1,4 @@
+<p>Querido, <%= @user.name %>,</p>
+<p>Has sido chuyado!</p>
+<p>Puedes editar tu perfil y seguir chuyando en el siguiente enlace:</p>
+<p><%= link_to "Editar Perfil", edit_user_url(@user, :host => "localhost:3000") %></p>

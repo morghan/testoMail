@@ -1,0 +1,6 @@
+Querido, <%= @user.name %>, 
+
+Has sido chuyado!
+
+Puedes editar tu perfil y seguir chuyando en el siguiente enlace:
+<%= edit_user_url(@user, :host => "localhost:3000") %>
